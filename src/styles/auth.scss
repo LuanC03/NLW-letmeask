@@ -42,7 +42,7 @@
         justify-content: center;
     }
 
-    .main-content{
+    .main-content{ 
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -62,14 +62,13 @@
                 background: #FFF;
                 border: 1px solid #a8a8b3;
             }
-
-            botton{
+            button{
                 margin-top: 16px;
-           }
-
-           button, input{
-               width: 100%;
-           }
+            }
+             
+            button, input{
+                width: 100%;
+            }
         }
     }
     .create-room{
@@ -122,5 +121,19 @@
         }
     }
 
-    
+    h2{
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        margin: 64px 0 16px;
+    }
+
+    p{
+        font-size: 14px;
+        color: #737380;
+        margin-top: 16px;
+
+        Link{
+            color: #e559f9;
+        }
+    }    
 }
